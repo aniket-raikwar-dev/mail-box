@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&family=Darker+Grotesque:wght@500&family=Fira+Code:wght@500&family=IBM+Plex+Sans+Arabic&family=IBM+Plex+Sans:wght@400;600&family=Inter&family=Karla:wght@300&family=Lato&family=Merriweather&family=Noto+Sans+KR:wght@300;500&family=Oswald&family=Outfit:wght@100;200;400&family=Poppins&family=Radio+Canada:wght@300;500&family=Raleway&family=Roboto+Mono&family=Roboto:wght@400;700&family=Sen:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&family=Space+Grotesk:wght@400;700&family=Space+Mono:wght@400;700&family=Trispace&display=swap');
+
+* {
+  font-family: 'Radio Canada', sans-serif;
+}
+
+.input-box {
+  width: 480px;
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  height: 100%;
+  font-family: 'Radio Canada', sans-serif; 
+  font-weight: lighter;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  background: transparent;
+  color: white;
+}
+
+.container {
+  height: 91.5vh;
+  background: whitesmoke;
+  display: flex;
+}
+
+.mail-para, .time-text {
+  font-family: 'Radio Canada', sans-serif; 
+  font-weight: lighter;
+  font-size: 14.5px;
+  letter-spacing: 0.5px;
+}
+
+.bold {
+  font-family: 'Radio Canada', sans-serif; 
+  font-weight: normal;
+  font-size: 14.5px;
+}
+
+.time-text, .time-text-2 {
+  font-size: 12px;
+}
+
+.time-text-2 {
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+}
+
+.tag-line, .tag-line-2 {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 2px 10px 2px 10px;
+  background-color: rgba(217, 216, 216, 1);
+  color: #135236;
+  border-radius: 2px;
+}
+
+.tag-line-2 {
+  width: 60px;
+  height: 25px;
+  font-size: 14px;
+}
+
+
+.mail-text {
+  font-weight: lighter;
+  font-size: 18px;
+  letter-spacing: 1px;
+  /* background-color: blue; */
+  width: 90%;
+}
